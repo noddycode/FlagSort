@@ -1,5 +1,6 @@
 import colorsys
 import math
+import time
 from collections import namedtuple
 
 import pygame
@@ -32,6 +33,7 @@ def step_key(band):
   v2 = int(v * repetitions)
 
   return h2, lum, v2
+
 
 
 if __name__ == '__main__':
