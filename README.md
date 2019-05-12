@@ -18,4 +18,4 @@ Libraries Used
 Other Sources
 ------
 * Modified version of iterative QuickSort implementation from [GeeksForGeeks](https://www.geeksforgeeks.org/iterative-quick-sort/)
-* Sorting algorithms and explanation from [Alan Zucconi](https://www.alanzucconi.com/2015/09/30/colour-sorting/)
+* Color sorting options and explanation from [Alan Zucconi](https://www.alanzucconi.com/2015/09/30/colour-sorting/)
