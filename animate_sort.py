@@ -115,7 +115,20 @@ if __name__ == '__main__':
 
   sort_gen = quick_sort_generator(color_bands, 0, len(color_bands)-1)
 
-  while True:
+  done = False
+  while not done:
+
+    # PyGame quit code from https://stackoverflow.com/questions/15214727/exiting-pygame-window-on-click
+    for event in pygame.event.get():
+      if event.type == pygame.KEYDOWN:
+        if event.key == pygame.K_ESCAPE:
+          done = True
+          break
+      elif event.type == pygame.QUIT:
+        done = True
+        break
+    if done:
+      break  # to break out of the while loop
 
     screen.fill((0, 0, 0))
 
